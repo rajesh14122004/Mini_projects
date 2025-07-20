@@ -1,0 +1,59 @@
+/* Base Styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Gallery Container */
+.gallery {
+  text-align: center;
+}
+
+/* Gallery Item */
+.gallery-item {
+  display: inline-block;
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Default: single column */
+}
+
+/* Gallery Images */
+.gallery-item img {
+  max-width: 100%;
+  display: block;
+  height: 220px;
+  width: 500px;
+}
+
+/* Responsive Layouts */
+/* Medium screens: 2 columns */
+@media (min-width: 600px) {
+  .gallery-item {
+    width: 45%;
+  }
+}
+
+/* Large screens: 3 columns */
+@media (min-width: 900px) {
+  .gallery-item {
+    width: 30%;
+  }
+}

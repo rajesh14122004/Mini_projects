@@ -1,0 +1,48 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  position: sticky; 
+  top: 0;
+  background-color: #333;
+  padding: 15px 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 50px 20px;
+  min-height: 100vh;
+}
+
+#home {
+  background-color: #f2f2f2;
+}
+
+#about {
+  background-color: #e0f7fa;
+}
+
+#contact {
+  background-color: #ffe0b2;
+}
+
+h1 {
+  margin-top: 0;
+}
